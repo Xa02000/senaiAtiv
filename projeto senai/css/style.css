@@ -139,7 +139,7 @@ section .filtro{
 }
 
 .text h2{
-    margin-left: 580px;
+    margin-left: 900px;
     margin-top: 35px;
 }
 
@@ -151,7 +151,7 @@ section .card-kart{
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
     grid-gap:30px;
     padding-top: 50px;
-    margin-left: 100px;
+    margin-left: 450px;
     
 }
 
@@ -229,7 +229,7 @@ a[href="#top"]:hover{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
     grid-gap:30px;
-    margin-left: 135px;
+    margin-left: 450px;
     margin-top: -150px;
     
 }
@@ -306,13 +306,13 @@ a[href="#top"]:hover{
 
 .pista h2{
     margin: 200px;
-    margin-left: 550px;
+    margin-left: 850px;
     padding-bottom: 5px;
 }
 
 .ranking{
     margin: 300px;
-    margin-left: -0px;
+    margin-left: 300px;
 }
 
 .corredor{
@@ -398,7 +398,7 @@ a[href="#top"]:hover{
 
 .titulo-ranking .titulo{
     margin:300px;
-    margin-left: 500px;
+    margin-left: 880px;
     margin-bottom: -200px;
 }
 
@@ -417,3 +417,32 @@ a[href="#top"]:hover{
     padding-top: 15px;
 }
 
+.rodape ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape ul li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rodape ul li a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.rodape ul li a:hover{
+    color: var(--gray);
+}
+
+.rodape{
+    background: var(--orange);
+    height: 100px;
+}
+
+.footer{
+    text-align: center;
+    background: var(--orange);
+}
