@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+:root{
+    --orange: #f78b00;
+    --blue: #00285f;
+    --gray: #ededed;
+}
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background:var(--orange);
+}
+
+.conteudo{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+nav{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome{
+    font-size: 26px;
+    color:var(--blue);
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #00285f83;
+}
+
+.conteudo .cabecalho{
+    width: 1000px;
+    height: 450px;
+    background: var(--blue);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba( 0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+
+}
+
+.cabecalho img {
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.cabecalho .texto{
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 1.5em;
+}
+
+.cabecalho .texto h2{
+    color: white;
+    margin-bottom: 100px;
+    text-align: right;
+    ;
+    
+}
+
+.cabecalho .texto p{
+    max-width: 280px;
+    color: white;
+    text-align: right;
+    
+}
+
+section .catalog{
+    width: 100vw;
+    padding: 100px;
+}
+
+section .filtro{
+    width: 1000px;
+    height: 150px;
+    background: var(--gray);
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.titulo-catalogo p{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo-catalogo h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.text h2{
+    margin-left: 580px;
+    margin-top: 35px;
+}
+
+
+section .card-kart{
+    width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    grid-gap:30px;
+    padding-top: 50px;
+    margin-left: 100px;
+    
+}
+
+section .card-item{
+    height: 400px;
+    background: var(--gray);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+
+
+
+.card-item img{
+    width:90%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.card-item p{
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+    font-size: small;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.botao button{
+    width: 100px;
+    padding: 5px 0px 0px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left:300px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    
+    
+}
+
+.botao button:hover{
+    color: white;
+    background: var(--blue);
+  
+}
+
+a[href="#top"]{
+    color:#00000090;
+       
+}
+
+a[href="#top"]:hover{
+    color:white
+}
+
+.card-pista{
+    width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    grid-gap:30px;
+    margin-left: 135px;
+    margin-top: -150px;
+    
+}
+
+.card-item-pista{
+    height: 400px;
+    background: var(--gray);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.conteudo-pista{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    margin-left: 10px;
+}
+
+
+
+.card-item-pista img{
+    width:90%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.card-item-pista p{
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+    font-size: small;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.botao button{
+    width: 100px;
+    padding: 5px 0px 0px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left:300px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    
+    
+}
+
+.botao button:hover{
+    color: white;
+    background: var(--blue);
+  
+}
+
+a[href="#top"]{
+    color:#00000090;
+       
+}
+
+a[href="#top"]:hover{
+    color:white
+}
+
+.pista h2{
+    margin: 200px;
+    margin-left: 550px;
+    padding-bottom: 5px;
+}
+
+.ranking{
+    margin: 300px;
+    margin-left: -0px;
+}
+
+.corredor{
+    width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    grid-gap:30px;
+    margin-left: 135px;
+    margin-top: -150px;
+    
+}
+
+.card-item-corredor{
+    height: 400px;
+    background: var(--gray);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.conteudo-piloto{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    margin-left: 10px;
+}
+
+
+
+.card-item-corredor img{
+    width:90%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.card-item-corredor p{
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+    font-size: small;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.botao button{
+    width: 100px;
+    padding: 5px 0px 0px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left:300px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    
+    
+}
+
+.botao button:hover{
+    color: white;
+    background: var(--blue);
+  
+}
+
+a[href="#top"]{
+    color:#00000090;
+       
+}
+
+a[href="#top"]:hover{
+    color:white
+}
+
+.titulo-ranking .titulo{
+    margin:300px;
+    margin-left: 500px;
+    margin-bottom: -200px;
+}
+
+.conteudo-piloto img{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-bottom: -100px;
+}
+
+.conteudo-piloto p{
+    padding-top: 10px;
+}
+
+.conteudo-piloto h3{
+    padding-top: 15px;
+}
+
