@@ -138,8 +138,8 @@ section .filtro{
     margin: 30px;
 }
 
-.text h2{
-    margin-left: 900px;
+h2{
+    text-align: center;
     margin-top: 35px;
 }
 
@@ -151,8 +151,8 @@ section .card-kart{
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
     grid-gap:30px;
     padding-top: 50px;
-    margin-left: 450px;
-    
+    left:10%;
+    position: relative;
 }
 
 section .card-item{
@@ -223,13 +223,16 @@ a[href="#top"]:hover{
     color:white
 }
 
+
+
 .card-pista{
     width: 1000px;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
     grid-gap:30px;
-    margin-left: 450px;
+    position: relative;
+    left: 10%;
     margin-top: -150px;
     
 }
@@ -306,7 +309,7 @@ a[href="#top"]:hover{
 
 .pista h2{
     margin: 200px;
-    margin-left: 850px;
+    text-align: center;
     padding-bottom: 5px;
 }
 
@@ -321,8 +324,9 @@ a[href="#top"]:hover{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
     grid-gap:30px;
-    margin-left: 135px;
-    margin-top: -150px;
+    position: relative;
+    right: 27%;
+    margin-top:-150px;
     
 }
 
@@ -398,7 +402,7 @@ a[href="#top"]:hover{
 
 .titulo-ranking .titulo{
     margin:300px;
-    margin-left: 880px;
+    text-align: center;
     margin-bottom: -200px;
 }
 

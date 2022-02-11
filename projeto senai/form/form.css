@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form1{
+    text-align: center;
+    position: relative;
+    margin-top: 9%;
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #00000090;
+}
